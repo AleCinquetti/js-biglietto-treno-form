@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- CALCOLO PREZZO BIGLIETTO -->
+    <section id="calc-ticket">
+        <h1>SCEGLI IL TUO BIGLIETTO</h1>
+        <!-- INSERIRE NOME E COGNOME -->
+        <label for="name">Nome e cognome</label>
+        <input id="name" type="text" placeholder="Nome e cognome">
+        <!-- INSERIRE KM DA PERCORRERE -->
+        <label for="distance">Quanti km vuoi percorrere?</label>
+        <input id="distance" type="number" name="kms" value="kms" placeholder="Km da percorrere">
+        <!-- INSERIRE RANGE DI ETÀ -->
+        <label for="age">Quanti anni hai?</label>
+        <input id="age-range" type="number" name="age" value="age" placeholder="Inserisci la tua età">
+        <!-- BOTTONI: STAMPA o ANNULLA -->
+        <button id="print" type="button" name="print">Stampa biglietto</button>
+        <button id="undo" type="button" name="undo">Annulla</button>
+    </section>
+
+    <section id="ticket">
+        <div id="ticket-name"></div>
+        <div id="ticket-type"></div>
+        <div id="ticket-price"></div>
+    </section>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
